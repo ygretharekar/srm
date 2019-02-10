@@ -8,7 +8,7 @@
             "name": "Python: Current File (Integrated Terminal)",
             "type": "python",
             "request": "launch",
-            "preLaunchTask": "clear screen",
+            // "preLaunchTask": "clear screen",
             "program": "${file}",
             "console": "integratedTerminal"
         },

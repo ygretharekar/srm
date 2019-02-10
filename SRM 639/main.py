@@ -1,5 +1,6 @@
-from alice_game_easy import AliceGameEasy
+from board_folding_div2 import BoardFoldingDiv2
 
 if __name__ == "__main__":
-    game = AliceGameEasy()
-    print(game.findMinimumValue(7, 14))
+    ans = BoardFoldingDiv2()
+    a = ("147", "258", "369")
+    print(ans.howMany(a))
