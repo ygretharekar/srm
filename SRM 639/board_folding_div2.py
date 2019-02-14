@@ -12,6 +12,7 @@ class BoardFoldingDiv2():
         return tuple(ans)
 
     def howManyVirtical(self, paper):
+        
         return len(paper)
 
 

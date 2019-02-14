@@ -1,0 +1,4 @@
+[
+  "Tests/test_board_folding_div2.py::TestBoardFoldingDiv2::test_howMany",
+  "Tests/test_board_folding_div2.py::TestBoardFoldingDiv2::test_needsfiles"
+]
