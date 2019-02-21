@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8cf098d-d5fd-41a5-b967-d7b0bf1f1b56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/SRM 639/board_folding_div2.py" beforeDir="false" afterPath="$PROJECT_DIR$/SRM 639/board_folding_div2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRM 639/test_board_folding_div2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestsSRM639/test_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestsSRM639/test_sample.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TestsSRM639/test_sample.py">
+        <entry file="file://$PROJECT_DIR$/SRM 639/board_folding_div2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -37,6 +35,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TestsSRM639/test_sample.py" />
+        <option value="$PROJECT_DIR$/SRM 639/board_folding_div2.py" />
       </list>
     </option>
   </component>
@@ -56,6 +55,11 @@
             <path>
               <item name="SRMs" type="b2602c69:ProjectViewProjectNode" />
               <item name="SRMs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SRMs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SRMs" type="462c0819:PsiDirectoryNode" />
+              <item name="SRM 639" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SRMs" type="b2602c69:ProjectViewProjectNode" />
@@ -131,11 +135,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -157,7 +161,14 @@
     <entry file="file://$PROJECT_DIR$/TestsSRM639/test_sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRM 639/board_folding_div2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
