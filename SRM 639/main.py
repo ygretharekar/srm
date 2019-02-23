@@ -2,7 +2,7 @@ from board_folding_div2 import BoardFoldingDiv2
 
 if __name__ == "__main__":
     ans = BoardFoldingDiv2()
-    a = ("0","0","0","1","0","0")
+    a = ("0110", "1001", "1001", "0110")
     print(ans.howMany(a))
 
 # ["0110","1001","1001","0110"] 9

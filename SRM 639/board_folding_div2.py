@@ -1,6 +1,5 @@
 class BoardFoldingDiv2:
-    @staticmethod
-    def rotate(paper):
+    def rotate(self, paper):
         row = len(paper)
         column = len(paper[0])
 
@@ -26,14 +25,14 @@ class BoardFoldingDiv2:
 
         for i in range(paper_rows):
             if fold[i]:
-                for h in range((paper_rows - i)//2):
-                    for m in range(1, h):
+                for h in range((paper_rows - i)//2+1):
+                    for m in range(h):
                         ans = True
                         for j in range(paper_columns):
                             ans = ans and (paper[i+m][j] == paper[i+h+h-m-1][j])
                 
-                if ans:
-                    fold[i+h] = True
+                    if ans:
+                        fold[i+h] = True
 
         return fold
 
@@ -49,5 +48,5 @@ class BoardFoldingDiv2:
 
     def howMany(self, paper):
         ans_v = self.how_many_vertical(paper)
-        ans_h = self.how_many_vertical(BoardFoldingDiv2.rotate(paper))
+        ans_h = self.how_many_vertical(self.rotate(paper))
         return ans_v*ans_h
