@@ -1,18 +1,6 @@
-from board_folding_div2 import BoardFoldingDiv2
+from ElectronicPetEasy import ElectronicPetEasy
 
 if __name__ == "__main__":
-    ans = BoardFoldingDiv2()
-    a = ("0110", "1001", "1001", "0110")
-    print(ans.howMany(a))
+    ans = ElectronicPetEasy()
+    print(ans.isDifficult(3, 3, 3, 5, 2, 2))
 
-# ["0110","1001","1001","0110"] 9
-# ["1111111","1111111"]	84
-
-# {"1111111", "1111111"}
-# Returns: 84
-
-# {"0110", "1001", "1001", "0110"}
-# Returns: 9
-
-# {"0", "0", "0", "1", "0", "0"}
-# Returns: 6
